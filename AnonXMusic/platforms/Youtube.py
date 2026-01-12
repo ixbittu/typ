@@ -7,7 +7,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from SaregamaMusic.utils.formatters import time_to_seconds
 import aiohttp
-from SaregamaMusic import LOGGER
+from AnonXMusic import LOGGER
 
 try:
     from py_yt import VideosSearch
