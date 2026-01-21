@@ -10,7 +10,7 @@ import aiohttp
 from AnonXMusic import LOGGER
 
 try:
-    from youtubesearchpython import VideosSearch
+    from py_yt import VideosSearch
 except ImportError:
     from youtubesearchpython.__future__ import VideosSearch
 
